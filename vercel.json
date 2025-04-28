@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "movie_reveiw_api/src/server.js",
+      "src": "movie_review_api/src/server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "movie_reveiw_api/src/server.js"
+      "dest": "movie_review_api/src/server.js"
     }
   ]
 }
